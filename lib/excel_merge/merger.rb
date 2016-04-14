@@ -1,5 +1,5 @@
 module ExcelMerge
-  class ExcelMerger
+  class Merger
     attr_reader :rows
 
     def initialize(options={})
